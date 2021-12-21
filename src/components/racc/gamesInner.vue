@@ -38,7 +38,7 @@
           align="center"
           justify="center"
         >
-        <v-spacer />
+          <v-spacer />
           <v-col
             class="d-none d-md-block text-right py-0"
             align-self="stretch"

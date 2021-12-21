@@ -31,32 +31,7 @@ const router = new Router({
         {
           path: '/',
           name: 'Home',
-          meta: { pageName: 'mainMenu' },
-          component: () => import('@/views/main/Index.vue'),
-        },
-        {
-          path: '/about',
-          name: 'About',
-          meta: { pageName: 'aboutPage' },
-          component: () => import('@/views/main/Index.vue'),
-        },
-        {
-          path: '/games',
-          name: 'Games',
-          meta: { pageName: 'gamesPage' },
-          component: () => import('@/views/main/Index.vue'),
-        },
-        {
-          path: '/blog',
-          name: 'Blog',
-          meta: { pageName: 'blogPage' },
-          component: () => import('@/views/main/Index.vue'),
-        },
-        {
-          path: '/contact',
-          name: 'Contact',
-          meta: { pageName: 'contactPage' },
-          component: () => import('@/views/main/Index.vue'),
+          component: () => import('@/views/rd/Index.vue'),
         },
         {
           path: '*',

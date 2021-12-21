@@ -14,23 +14,23 @@
       />
 
       <base-text-field
+        id="frmNameA"
         v-model="name"
         label="Name"
         :rules="nameRules"
         name="name"
-        id="frmNameA"
         required
         autocomplete="name"
       />
 
       <base-text-field
+        id="frmEmailA"
         v-model="email"
         label="Email"
         :rules="emailRules"
         validate-on-blur
         type="email"
         name="email"
-        id="frmEmailA"
         required
         autocomplete="email"
       />

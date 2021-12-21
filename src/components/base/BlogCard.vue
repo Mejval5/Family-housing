@@ -45,23 +45,23 @@
 
     <v-card-text class="my-0 py-0">
       <v-row
-      align="center"
+        align="center"
       >
         <v-col class="pt-1">
-      <div
-        v-if="subtitle"
-        class="mb-1 subtitle-1 terciaryText"
-        v-text="subtitle"
-      />
+          <div
+            v-if="subtitle"
+            class="mb-1 subtitle-1 terciaryText"
+            v-text="subtitle"
+          />
         </v-col>
         <v-col class="pt-1">
-      <div
-        v-if="subtitle"
-        class="mb-1 subtitle-1 text-right terciaryText"
-        v-text="formatedDate"
-      />
+          <div
+            v-if="subtitle"
+            class="mb-1 subtitle-1 text-right terciaryText"
+            v-text="formatedDate"
+          />
         </v-col>
-        </v-row>
+      </v-row>
       <v-divider
         class="pb-2 pt-0"
       />
